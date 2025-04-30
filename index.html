@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Asistente PDF con Gemini</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="importmap">
+    {
+      "imports": {
+        "@google/genai": "https://esm.sh/@google/genai@^0.9.0"
+      }
+    }
+    </script>
+</head>
+<body>
+    <h1>Asistente de Lectura PDF</h1>
+
+    <div>
+        <label for="pdfFile">Sube tu PDF:</label>
+        <input type="file" id="pdfFile" accept="application/pdf">
+    </div>
+
+    <div>
+        <label for="userPrompt">Tu pregunta sobre el PDF:</label>
+        <input type="text" id="userPrompt" placeholder="Ej: Resume este documento">
+    </div>
+
+    <button id="processButton">Procesar PDF</button>
+
+    <h2>Respuesta:</h2>
+    <div id="responseArea">
+        Esperando consulta...
+    </div>
+
+    <!-- Script al final del body -->
+    <script type="module" src="index.tsx"></script>
+</body>
+</html>
