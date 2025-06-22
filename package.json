@@ -1,8 +1,12 @@
 {
-  "name": "asistente-de-lectura-pdf",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@tiridu-on-bags/asistente-de-lectura-pdf",
+  "private": false,
+  "version": "1.0.1",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiridu-on-bags/asistente-de-lectura-pdf.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

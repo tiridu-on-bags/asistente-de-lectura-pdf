@@ -33,6 +33,22 @@ Este proyecto es una aplicación web que te permite **subir un archivo PDF**, ha
    ```
 5. Abre tu navegador en [http://localhost:5173](http://localhost:5173) (puerto por defecto de Vite).
 
+## Uso como paquete npm (GitHub Packages)
+
+Este proyecto también está publicado como paquete npm privado en GitHub Packages. Puedes instalarlo en otro proyecto así:
+
+```bash
+npm install @tiridu-on-bags/asistente-de-lectura-pdf
+```
+
+Asegúrate de agregar la siguiente línea en el archivo `.npmrc` de tu proyecto consumidor:
+
+```
+@tiridu-on-bags:registry=https://npm.pkg.github.com
+```
+
+Necesitarás autenticarte con un token de GitHub con permisos para leer paquetes privados.
+
 ## Uso
 
 1. Sube un archivo PDF usando el formulario.
@@ -57,4 +73,4 @@ Desarrollado por [tiridu-on-bags](https://github.com/tiridu-on-bags).
 
 ---
 
-¡Clona el repo y comparte lo que hagas!
+¡Clona el repo, instala el paquete y comparte lo que hagas!

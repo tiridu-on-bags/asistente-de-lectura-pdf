@@ -16,6 +16,6 @@
     "strictNullChecks": false,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["*.ts", "*.tsx"],
+  "include": ["index.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
