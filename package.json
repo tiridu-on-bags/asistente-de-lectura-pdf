@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/tiridu-on-bags/asistente-de-lectura-pdf.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
